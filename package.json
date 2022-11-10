@@ -1,43 +1,53 @@
 {
   "name": "short-crypter",
+  "version": "1.0.0",
   "description": "short-crypter, which is a simple two-way crypter library for encrypting and decrypting text in very short form.",
-  "version": "0.0.9",
-  "type": "module",
-  "files": [
-    "dist"
-  ],
+  "main": "vite.config.js",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "csstype": "^2.6.21",
+    "esbuild": "^0.15.13",
+    "esbuild-windows-64": "^0.15.13",
+    "estree-walker": "^2.0.2",
+    "fflate": "^0.7.3",
+    "function-bind": "^1.1.1",
+    "has": "^1.0.3",
+    "is-core-module": "^2.11.0",
+    "magic-string": "^0.25.9",
+    "nanoid": "^3.3.4",
+    "path-parse": "^1.0.7",
+    "picocolors": "^1.0.0",
+    "pinia": "^2.0.23",
+    "postcss": "^8.4.16",
+    "resolve": "^1.22.1",
+    "rollup": "^2.79.1",
+    "source-map": "^0.6.1",
+    "source-map-js": "^1.0.2",
+    "sourcemap-codec": "^1.4.8",
+    "supports-preserve-symlinks-flag": "^1.0.0",
+    "vite": "^3.2.3",
+    "vue": "^3.2.44",
+    "vue-demi": "^0.13.11",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BirajMainali/crypted-vue-route.git"
+    "url": "git+https://github.com/BirajMainali/short-crypter.git"
   },
   "keywords": [
-    "crypted-vue-route",
-    "hash-vue-route",
-    "encrypted-vue-route",
-    "vue-route"
+    "short-crypter",
+    "crypter",
+    "encrypt",
+    "decrypt"
   ],
   "author": "Biraj Mainali",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BirajMainali/crypted-vue-route/issues"
+    "url": "https://github.com/BirajMainali/short-crypter/issues"
   },
-  "homepage": "https://github.com/BirajMainali/crypted-vue-route#readme",
-  "main": "./dist/crypted-vue-route.umd.js",
-  "module": "./dist/crypted-vue-route.es.js",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview --port 4173"
-  },
-  "dependencies": {
-    "crypted-vue-route": "^0.0.10",
-    "fflate": "^0.7.3",
-    "pinia": "^2.0.23",
-    "vue": "^3.2.38",
-    "vue-router": "^4.1.5"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^3.0.3",
-    "vite": "^3.0.9"
-  }
+  "homepage": "https://github.com/BirajMainali/short-crypter#readme"
 }
