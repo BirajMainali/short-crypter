@@ -1,0 +1,43 @@
+{
+  "name": "short-crypter",
+  "description": "short-crypter, which is a simple two-way crypter library for encrypting and decrypting text in very short form.",
+  "version": "0.0.9",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BirajMainali/crypted-vue-route.git"
+  },
+  "keywords": [
+    "crypted-vue-route",
+    "hash-vue-route",
+    "encrypted-vue-route",
+    "vue-route"
+  ],
+  "author": "Biraj Mainali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BirajMainali/crypted-vue-route/issues"
+  },
+  "homepage": "https://github.com/BirajMainali/crypted-vue-route#readme",
+  "main": "./dist/crypted-vue-route.umd.js",
+  "module": "./dist/crypted-vue-route.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "crypted-vue-route": "^0.0.10",
+    "fflate": "^0.7.3",
+    "pinia": "^2.0.23",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.0.9"
+  }
+}
